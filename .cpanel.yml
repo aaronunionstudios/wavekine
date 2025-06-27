@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/unionstudios/repositories/wavekine
+    - /bin/cp -R * $DEPLOYPATH
